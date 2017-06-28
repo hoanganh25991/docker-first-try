@@ -10,7 +10,7 @@ docker commit as
 
 	docker commit <container> <image-tag>
 
-When container running, after modify on it, commit it by image-tag (use new image tag or can reuse the old-one)
+image now contains all these changes
 
 ## Example
 
