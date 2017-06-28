@@ -4,11 +4,13 @@ version: '2' # specify docker-compose version
 services:
   angular: # name of the first service
     build: angular-client # specify the directory of the Dockerfile
+    image: hoanganh25991/meandocker_angular
     ports:
       - "4200:4200" # specify port forewarding
 
   express: #name of the second service
     build: express-server # specify the directory of the Dockerfile
+    image: hoanganh25991/meandocker_express
     ports:
       - "3000:3000" #specify ports forewarding
     links:
