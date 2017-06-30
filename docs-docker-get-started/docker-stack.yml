@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: username/repository:tag
+    image: hoanganh25991/docs_docker_get_started:lastest
     deploy:
       replicas: 5
       resources:
